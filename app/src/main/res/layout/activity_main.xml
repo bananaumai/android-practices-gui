@@ -15,7 +15,7 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="16dp" android:layout_marginStart="16dp" android:id="@+id/editText"
             android:hint="@string/edit_message" app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button"/>
+            app:layout_constraintEnd_toStartOf="@+id/button" android:importantForAutofill="no"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
