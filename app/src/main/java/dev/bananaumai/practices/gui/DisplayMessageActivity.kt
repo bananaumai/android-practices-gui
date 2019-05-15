@@ -16,7 +16,7 @@ class DisplayMessageActivity : AppCompatActivity() {
 
         intent.getStringExtra(MainActivity.EXTRA_MESSAGE).let {
             val textView = findViewById<TextView>(R.id.textView)
-            textView.text = "${textView.text}  $it"
+            textView.text = "${textView.text} $it"
         }
     }
 
